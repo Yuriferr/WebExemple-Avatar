@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --coloragua: ;
+    --colorterra: ;
+    --colorfogo: ;
+    --colorar: ;
+}
+
+header{
+    backdrop-filter: blur(15px);
+}
+
+.presentation{
+    height: 100vh;
+    background-image: url(https://cdn.midjourney.com/7391e800-6653-4857-9a4d-b86b50cd4305/0_0.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.presentation div{
+    width: 60%;
+    height: 100%;
+}
+
+.presentation div a{
+    width: fit-content;
+}
