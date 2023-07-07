@@ -1,3 +1,4 @@
+let imageWater = document.getElementById('imageWater');
 let cards = document.getElementById('cards');
 var dataWater = {};
 var arrayData = [];
@@ -8,6 +9,8 @@ function getWater(){
     }
     ).then((data)=>{
         dataWater = data[0];
+        console.log(dataWater);
+        imageWater.src = dataWater.imagem;
         arrayData = dataWater.personagens;
         arrayData.forEach(element => {
             cards.innerHTML += `

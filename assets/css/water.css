@@ -1,3 +1,22 @@
-section{
+.presentationWater{
     height: 100vh;
+    background-image: url(https://cdn.discordapp.com/attachments/1096821782591311992/1126906491522261014/yuriferr_water_tribe_city_at_the_north_pole_made_of_ice_9c08829a-7c62-47d8-adef-f2cdb7f27247.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.presentationWater div{
+    width: 60%;
+    height: 100%;
+}
+
+.presentationWater div h1 img{
+    width: 30px;
+    height: 30px;
+    mix-blend-mode: multiply;
+}
+
+.presentationWater div a{
+    width: fit-content;
 }
